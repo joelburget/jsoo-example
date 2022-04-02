@@ -1,10 +1,18 @@
+## Intro
+
+This is an example demonstrating the error described in [Dune and js_of_ocaml setup](https://discuss.ocaml.org/t/dune-and-js-of-ocaml-setup/2359) from the discuss.ocaml.org, with failing to resolve `child_process` and `fs`.
+
+The OCaml setup `ocaml/` is very simple. The JS uses [Next.js](https://nextjs.org/). See `js/pages/index.js` for the entry point (this is the only relevant file on the JS side).
+
+## Instructions
+
 ```
 cd js
 npm install
 npm run dev
 ```
 
-->
+On my computer (OCaml 4.13.1, js_of_ocaml 4.0.0) this produces:
 
 ```
 Module not found: Can't resolve 'fs'
