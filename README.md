@@ -30,3 +30,7 @@ Import trace for requested module:
 https://nextjs.org/docs/messages/module-not-found
 Native Node.js APIs are not supported in the Edge Runtime. Found `fs` imported.
 ```
+
+## Fix
+
+See the [webpack-5-resolution](https://github.com/joelburget/jsoo-example/tree/webpack-5-resolution) branch.
